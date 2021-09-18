@@ -1,0 +1,164 @@
+Dart Operators
+1. Unary Postfix-
+(a) expr++
+•	a++
+•	b++
+(b) expr- -
+•	c- -
+•	d- -
+(c) ( )
+•	var a= new A()
+•	int b= new B()
+(d) [ ]
+•	List<double> _prices=[];
+•	List<int> _values=[];
+(e) .
+•	list.add(color1);
+•	list.add(color2);
+(f) ?.
+•	obj1?.username()
+•	obj2?.username()
+2. Unary prefix-
+(a) -expr
+•	-a
+•	-d
+(b) !expr
+•	!a
+•	!b
+ (c) ~expr
+•	~a
+•	~c
+(d) ++expr
+•	++x
+•	++i
+(e) - -expr
+•	- -i
+•	- -j
+      
+3. Multiplicative-
+(a) *    
+•	a*b
+•	b*c
+(b) /
+•	a/b
+•	b/c
+ (c) %
+•	a%b
+•	b%c
+  (d) ~/
+•	b~/a
+•	c~/b
+4. Additive-
+(a) +
+•	a+b
+•	b+c
+(b) –
+•	a-b
+•	b-c
+5. Bitwise AND
+•	a & b
+•	b & c
+6. Bitwise OR
+•	a | b
+•	b |c
+7. Bitwise XOR
+•	a^b
+•	c^d
+8. Shift
+(a) <<
+•	printfn(a<<4)
+•	printfn(b<<1)
+
+(b) >>
+•	printfn(b>>4)
+•	printfn(c>>1)
+
+(c) >>>
+•	printfn(i>>>j)
+•	printfn(j>>>k)
+9. Relational and type test
+(a) >=    
+•	a>=b
+•	b>=c
+(b) >
+•	a>b
+•	c>d
+(c) <=
+•	i<=j
+•	k<=l
+(d) <
+•	i<j
+•	k>l
+(e) as
+•	[‘images’] as list
+•	[‘test1’] as list
+(f) is
+•	print(num is int)
+•	print(percent is float)
+(g) is!
+•	print(num is! int)
+•	print(percent is! float)
+
+
+10. Equality
+(a) ==
+•	If (a==b) {
+print(“they are equal”)
+}
+
+•	If (a%2==0){
+print(“it is even”)
+}
+(b) !=
+•	If (a!=b){
+Print(“Not equal”)
+•	var a=b!=c
+11. Logical AND
+&&
+•	var val1= bool_val1 && bool_val2
+print(val1)
+•	(A>10 && B>10)
+12. Logical OR
+||
+•	(A>10 || B>10)
+•	var val2= bool_val1 && bool_val2
+print(val2)
+13. if null
+??
+•	var a=x??y
+•	a??=3
+14. Conditional
+expr1 ? expr2 : expr3
+•	var output = a > 42 ? "value greater than 10":"value lesser than equal to 30"
+•	var a=b>c?”b is greater than c”:”c is less than equal to b”
+15. Cascade
+(a) ..
+•	myobj..fn1()
+•	(‘obj..’)
+(b) ?..
+•	?..text
+•	?..text=’Confirm’
+
+
+16. Assignment
+(a) =    
+•	a=10
+•	b=17
+(b) *=  
+•	n1*=n2
+•	a*=b
+(c) /=   
+•	n1/=n2
+•	a/=b
+(d)+=   
+•	n1+=n2
+•	a+=b
+(e)-=   
+•	n1-=n2
+•	a-=b
+(f) &=   
+•	n1&=n2
+•	a&=b
+(g)^=
+•	n1^=n2
+•	a^=b
